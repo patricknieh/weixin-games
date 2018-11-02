@@ -5,6 +5,7 @@ import flipCard from '@/pages/flipCard'
 import lotteryDraw from '@/pages/lotteryDraw'
 import puzzleDrag from '@/pages/puzzleDrag'
 import puzzleSwipe from '@/pages/puzzleSwipe'
+import huarongdao from '@/pages/huarongdao'
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ export default new Router({
       path: '/puzzleSwipe',
       name: 'puzzleSwipe',
       component: puzzleSwipe
+    },
+    {
+      path: '/huarongdao',
+      name: 'huarongdao',
+      component: huarongdao
     },
   ]
 })
