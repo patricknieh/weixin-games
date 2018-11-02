@@ -44,7 +44,7 @@
       var App = {
         bind: function() {
           //阻止手机上浏览器的弹性下拉。。。
-          $('.puzzle-phone').on('touchstart', function(e) {
+          $('.puzzle-swipe').on('touchstart', function(e) {
             e.preventDefault();
           });
 
