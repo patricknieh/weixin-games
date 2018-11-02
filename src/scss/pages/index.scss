@@ -1,3 +1,16 @@
 .home-page{
-
+  .container{
+    a{
+      width: 90%;
+      font-size: 23px;
+      padding: 10px;
+      text-align: center;
+      background: rgba(255, 141, 102, 0.56);
+      border: 1px solid darkred;
+      color: white;
+      box-sizing: border-box;
+      margin: 10px auto;
+      display: block;
+    }
+  }
 }

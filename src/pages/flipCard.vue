@@ -77,7 +77,7 @@
       $('.cell').on('click',function () {
         let _this = this
         let result = $('#result')
-        let contentData = vm.getContent($(_this).data('title'))
+        let contentData = vm.getContent($(_this).data('title')) //jquery
         let homePath = window.location.origin
         console.log(contentData)
         let htmlContent = '<div>' +

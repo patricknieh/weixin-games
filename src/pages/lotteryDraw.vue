@@ -142,7 +142,7 @@
               vm.iterArrByIndex(arr,index).then(() => {
                 setTimeout(() => {
                   $('#lottery').css('overflow-y','scroll')
-                  console.log(`恭喜你抽到了 ${vm.getAwardInfo(index)}`)
+                  alert(`恭喜你抽到了 ${vm.getAwardInfo(index)}`)
                 },1500)
               })
             })
