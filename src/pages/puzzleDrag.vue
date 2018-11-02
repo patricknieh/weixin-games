@@ -1,5 +1,5 @@
 <template>
-  <div class="puzzle-pc">
+  <div class="puzzle-drag">
     <canvas id="canvas">
       cannot support canvas
     </canvas>
@@ -18,7 +18,7 @@
 </template>
 
 <style rel='stylesheet/scss' lang="scss" scoped>
-  .puzzle-pc{
+  .puzzle-drag{
     #canvas {
       display: none;
     }
@@ -32,12 +32,12 @@
 </style>
 
 <script>
-  import {Puzzle} from "../utils/puzzlePc";
+  import {Puzzle} from "../utils/puzzle-drag";
 
   export default {
     mounted(){
       var puzzle = new Puzzle();
-      puzzle.init('static/puzzle/test.jpg');
+      puzzle.init('static/puzzle/shulan.jpg');
     }
   }
 </script>

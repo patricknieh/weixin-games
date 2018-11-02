@@ -3,7 +3,8 @@ import Router from 'vue-router'
 import home from '@/pages/home'
 import flipCard from '@/pages/flipCard'
 import lotteryDraw from '@/pages/lotteryDraw'
-import puzzlePc from '@/pages/puzzlePc'
+import puzzleDrag from '@/pages/puzzleDrag'
+import puzzleSwipe from '@/pages/puzzleSwipe'
 
 Vue.use(Router)
 
@@ -26,9 +27,14 @@ export default new Router({
       component: lotteryDraw
     },
     {
-      path: '/puzzlePc',
-      name: 'puzzlePc',
-      component: puzzlePc
+      path: '/puzzleDrag',
+      name: 'puzzleDrag',
+      component: puzzleDrag
+    },
+    {
+      path: '/puzzleSwipe',
+      name: 'puzzleSwipe',
+      component: puzzleSwipe
     },
   ]
 })
