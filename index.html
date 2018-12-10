@@ -9,9 +9,10 @@
     <title>标题</title>
     <link rel="stylesheet" href="//at.alicdn.com/t/font_525903_xh6y2ay6wos.css">
     <link rel="stylesheet" href="https://unpkg.com/mint-ui/lib/style.css">
-    <!--<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>-->
-    <script src="https://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!--<script src="https://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>-->
     <script src="https://res.wx.qq.com/open/js/jweixin-1.1.0.js" charset="utf-8"></script>
+    <script src="https://code.createjs.com/1.0.0/soundjs.min.js"></script>
     <script>
       $(function(){var c={},d={};var e=self.location.href.indexOf("localhost")>-1?"/api/WxPlatform/getSignature":"../../WxPlatform/getSignature";console.log(e);$.ajax({type:"POST",url:e,data:{url:self.location.href.split("#")[0]},async:false,dataType:"json",success:function(a){c=a.data}});wx.config({debug:false,appId:c.appId,timestamp:c.timestamp,nonceStr:c.noncestr,signature:c.signature,jsApiList:['onMenuShareTimeline','onMenuShareAppMessage','onMenuShareQQ','onMenuShareWeibo','onMenuShareQZone']})});
     </script>
