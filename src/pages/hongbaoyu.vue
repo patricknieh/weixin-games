@@ -163,7 +163,7 @@
       createjs.Sound.registerSound("/static/hongbaoyu/bad.mp3", "badSound")
       createjs.Sound.registerSound("/static/hongbaoyu/background.mp3", "background")
       $(document).on('click',ev => {
-        createjs.Sound.play("background")
+        createjs.Sound.play("background", {loop:100})
       })
     }
   }
